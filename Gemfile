@@ -6,7 +6,10 @@ ruby '2.1.1'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3',  group: [:development, :test]
+#gem 'pg' 
+
 gem 'rspec-rails', group: [:development, :test]
+gem 'guard-rspec', group: [:development, :test]
 
 gem 'selenium-webdriver', group: :test
 gem 'capybara', group: :test
