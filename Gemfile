@@ -41,6 +41,8 @@ gem 'spring',        group: :development
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
+gem 'factory_girl_rails', group: :test
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
